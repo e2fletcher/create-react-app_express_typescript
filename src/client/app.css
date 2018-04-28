@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+}
+
+.item {
+  flex:1;
+  padding: 10px;
+  text-align:center;
+  margin: 5px;
+}
+
+.item-2 {
+  @extends .item;
+  flex: 2;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
